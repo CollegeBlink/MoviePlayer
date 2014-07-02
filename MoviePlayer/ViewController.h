@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface ViewController : UIViewController
+{
+    MPMoviePlayerController *moviePlayer;
+}
+@property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
+- (IBAction)playbutton:(id)sender;
 
 @end

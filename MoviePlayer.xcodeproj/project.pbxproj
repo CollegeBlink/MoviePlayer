@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6464CE7A1963816800358D70 /* Apple_Think_Different.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6464CE791963816800358D70 /* Apple_Think_Different.mp4 */; };
 		64D603D5182BE78B00B9CB42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D603D4182BE78B00B9CB42 /* Foundation.framework */; };
 		64D603D7182BE78B00B9CB42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D603D6182BE78B00B9CB42 /* CoreGraphics.framework */; };
 		64D603D9182BE78B00B9CB42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D603D8182BE78B00B9CB42 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		64D603F6182BE78B00B9CB42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D603D8182BE78B00B9CB42 /* UIKit.framework */; };
 		64D603FE182BE78B00B9CB42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64D603FC182BE78B00B9CB42 /* InfoPlist.strings */; };
 		64D60400182BE78B00B9CB42 /* MoviePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D603FF182BE78B00B9CB42 /* MoviePlayerTests.m */; };
+		64D6040A182BE7BB00B9CB42 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D60409182BE7BB00B9CB42 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6464CE791963816800358D70 /* Apple_Think_Different.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple_Think_Different.mp4; sourceTree = "<group>"; };
 		64D603D1182BE78B00B9CB42 /* MoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D603D4182BE78B00B9CB42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64D603D6182BE78B00B9CB42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		64D603FB182BE78B00B9CB42 /* MoviePlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoviePlayerTests-Info.plist"; sourceTree = "<group>"; };
 		64D603FD182BE78B00B9CB42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64D603FF182BE78B00B9CB42 /* MoviePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerTests.m; sourceTree = "<group>"; };
+		64D60409182BE7BB00B9CB42 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D6040A182BE7BB00B9CB42 /* MediaPlayer.framework in Frameworks */,
 				64D603D7182BE78B00B9CB42 /* CoreGraphics.framework in Frameworks */,
 				64D603D9182BE78B00B9CB42 /* UIKit.framework in Frameworks */,
 				64D603D5182BE78B00B9CB42 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		64D603D3182BE78B00B9CB42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64D60409182BE7BB00B9CB42 /* MediaPlayer.framework */,
 				64D603D4182BE78B00B9CB42 /* Foundation.framework */,
 				64D603D6182BE78B00B9CB42 /* CoreGraphics.framework */,
 				64D603D8182BE78B00B9CB42 /* UIKit.framework */,
@@ -117,6 +123,7 @@
 				64D603E6182BE78B00B9CB42 /* Main.storyboard */,
 				64D603E9182BE78B00B9CB42 /* ViewController.h */,
 				64D603EA182BE78B00B9CB42 /* ViewController.m */,
+				6464CE791963816800358D70 /* Apple_Think_Different.mp4 */,
 				64D603EC182BE78B00B9CB42 /* Images.xcassets */,
 				64D603DB182BE78B00B9CB42 /* Supporting Files */,
 			);
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6464CE7A1963816800358D70 /* Apple_Think_Different.mp4 in Resources */,
 				64D603ED182BE78B00B9CB42 /* Images.xcassets in Resources */,
 				64D603DF182BE78B00B9CB42 /* InfoPlist.strings in Resources */,
 				64D603E8182BE78B00B9CB42 /* Main.storyboard in Resources */,
@@ -460,6 +468,7 @@
 				64D60405182BE78B00B9CB42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64D60406182BE78B00B9CB42 /* Build configuration list for PBXNativeTarget "MoviePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				64D60408182BE78B00B9CB42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
